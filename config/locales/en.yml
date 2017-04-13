@@ -20,33 +20,30 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  base_title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
       title: "Home"
       sample_app: "Sample App"
-      intro: "This is the home page for the"
-      link: "Ruby on Rails Tutorial"
-      sample: "sample application." 
+      home_content: "This is the home page for the %{ruby_tut_link}
+      sample application"
+      ror_tut: "Ruby on Rails Tutorial"
     help:
       title: "Help"
       help: "Help"
-      ỉntro: "Get help on the Ruby on Rails Tutorial at the"
-      link: "Rails Tutorial help section."
-      toget: "To get help on this sample app, see the"
-      tut: "Ruby on Rails Tutorial"
-      book: "Book"
+      help_content: "Get help on the Ruby on Rails Tutorial
+      at the %{help_section_link}.
+      To get help on this sample app, see the %{rails_book_link}"
+      help_section: "Rails Tutorial help section"
+      rails_book: "Ruby on Rails Tutorial"
     about:
       title: "About"
-      about: "About"
-      the: "The"
-      tut: "Ruby on Rails Tutorial"
-      is_a: "is a"
-      book: "book"
-      and: "and"
-      screencast: "screencast series"
-      to_teach: "to teach web development with"
-      rubyonrails: "Ruby on Rails"
-      end: "This is the sample application for the tutorial."
+      about_content: "The %{rails_tut_link} is a %{rails_book_link}
+      and %{screen_cast_rails} to teach web development with %{ror_link}.
+      This is the sample application for the tutorial."
+      book : "Book"
+      screen_cast_rails: "screencast series"
+      ror_tut: "Ruby on Rails Tutorial"
   layouts:
     application:
       ruby_title: "Ruby on Rails Tutorial Sample App"
