@@ -1,13 +1,13 @@
 <% provide :title, t("static_pages.about.title") %>
 <h1><%= t "static_pages.about.about" %></h1>
 <p>
-  <%= t "static_pages.about.the" %>
-  <a href="http://www.railstutorial.org/"><em><%= t "static_pages.about.tut" %></em></a>
-  <%= t "static_pages.about.is_a" %>
-  <a href="http://www.railstutorial.org/book"><%= t "static_pages.about.book" %></a>
-  <%= t "static_pages.about.and" %>
-  <a href="http://screencasts.railstutorial.org/"><%= t "static_pages.about..screencasts" %></a>
-  <%= t "static_pages.about.to_teach" %>
-  <a href="http://rubyonrails.org/"><%= t "static_pages.about.rubyonrails" %></a><br>
-  <%= t "static_pages.about.end" %> 
+  <%= raw t("static_pages.about.about_content",
+    rails_tut_link: link_to(t("static_pages.about.ror_tut"),
+    "http://www.railstutorial.org/"),
+    rails_book_link: link_to(t("static_pages.about.book"),
+    "http://www.railstutorial.org/book"),
+    screen_cast_rails: link_to(t("static_pages.about.screen_cast"),
+    "http://screencasts.railstutorial.org/"),
+    ror_link: link_to(t("static_pages.about.ror_tut"),
+    "http://rubyonrails.org/")) %>
 </p>
