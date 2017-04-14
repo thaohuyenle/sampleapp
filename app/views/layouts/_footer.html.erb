@@ -1,0 +1,17 @@
+<footer class="footer">
+  <small>
+    <%= raw t("layouts.footer.footer_content",
+      ror_tut_link: link_to(t("layouts.footer.ror_tut"),
+      "http://www.railstutorial.org/"),
+      person_link: link_to(t("layouts.footer.person"),
+      "http://www.michaelhartl.com/")) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to(t("layouts.footer.about"), about_path) %></li>
+      <li><%= link_to(t("layouts.footer.contact"), contact_path) %></li>
+      <li><%= link_to(t("layouts.footer.news"),
+        "http://news.railstutorial.org/") %></li>
+    </ul>
+  </nav>
+</footer>

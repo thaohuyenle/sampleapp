@@ -24,7 +24,7 @@ en:
   static_pages:
     home:
       title: "Home"
-      sample_app: "Sample App"
+      sample_app: "Welcome to the Sample App"
       home_content: "This is the home page for the %{ruby_tut_link}
       sample application"
       ror_tut: "Ruby on Rails Tutorial"
@@ -44,6 +44,29 @@ en:
       book : "Book"
       screen_cast_rails: "screencast series"
       ror_tut: "Ruby on Rails Tutorial"
+    contact:
+      title: "Contact"
+      contact: "Contact"
+      contact_content: "Contact the Ruby on Rails Tutorial about the
+      sample app at the %{contact_link}"
+      contact_page: "contact page"
+  users:
+    new:
+      title: "Sign up"
+      signup: "Sign up"
+      signup_content: "This will be a signup page for new users."
   layouts:
     application:
       ruby_title: "Ruby on Rails Tutorial Sample App"
+    header:
+      sampleapp: "Sample App"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    footer:
+      footer_content: "The %{ror_tut_link} by %{person_link}."
+      ror_tut: "Ruby on Rails Tutorial"
+      person: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"
