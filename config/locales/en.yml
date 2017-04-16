@@ -20,6 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  user_exsit: "This user does not exsit!"
+  welcome: "Welcome to the Sample App!"
   base_title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
@@ -54,7 +56,7 @@ en:
     new:
       title: "Sign up"
       signup: "Sign up"
-      signup_content: "This will be a signup page for new users."
+      create: "Create my account"
   layouts:
     application:
       ruby_title: "Ruby on Rails Tutorial Sample App"
@@ -70,3 +72,7 @@ en:
       about: "About"
       contact: "Contact"
       news: "News"
+  shared:
+    error:
+      form: "The form contains"
+      error: "errors"
