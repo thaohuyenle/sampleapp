@@ -60,11 +60,17 @@ en:
   layouts:
     application:
       ruby_title: "Ruby on Rails Tutorial Sample App"
+      sampleapp: "Sample App"
     header:
       sampleapp: "Sample App"
       home: "Home"
       help: "Help"
       login: "Login"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
     footer:
       footer_content: "The %{ror_tut_link} by %{person_link}."
       ror_tut: "Ruby on Rails Tutorial"
@@ -76,3 +82,9 @@ en:
     error:
       form: "The form contains"
       error: "errors"
+  sessions:
+    new:
+      title: "Log in"
+      login: "Log in"
+      signup_content: "If you don't have account ?"
+      signup : "Sign up now !"
