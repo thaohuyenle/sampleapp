@@ -22,6 +22,7 @@
 en:
   user_exsit: "This user does not exsit!"
   welcome: "Welcome to the Sample App!"
+  invalid: "Invalid email/password combination"
   base_title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
@@ -88,3 +89,4 @@ en:
       login: "Log in"
       signup_content: "If you don't have account ?"
       signup : "Sign up now !"
+      remember_me: "Remember me on this computer"
