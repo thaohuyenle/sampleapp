@@ -20,7 +20,12 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  update: "Profile updated"
+  logged_in: "Please log in to access this page."
+  login_other: "Please log in an other user."
   user_exsit: "This user does not exsit!"
+  deleted: "User deleted"
+  not_delete: "User cann't delete"
   welcome: "Welcome to the Sample App!"
   invalid: "Invalid email/password combination"
   base_title: "Ruby on Rails Tutorial Sample App"
@@ -31,6 +36,7 @@ en:
       home_content: "This is the home page for the %{ruby_tut_link}
       sample application"
       ror_tut: "Ruby on Rails Tutorial"
+      signup : "Sign up now !"
     help:
       title: "Help"
       help: "Help"
@@ -54,10 +60,21 @@ en:
       sample app at the %{contact_link}"
       contact_page: "contact page"
   users:
+    index:
+      title: "All users"
+      all_users: "All Users"
     new:
       title: "Sign up"
       signup: "Sign up"
       create: "Create my account"
+    edit:
+      title: "Edit user"
+      edit: "Update your profile"
+      save: "Save changes"
+      change: "change"
+    user:
+      delete: "delete"
+      sure: "You sure?"
   layouts:
     application:
       ruby_title: "Ruby on Rails Tutorial Sample App"
