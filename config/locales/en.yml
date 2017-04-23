@@ -20,12 +20,17 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  acc_activated: "Account activated!"
+  invalid_activation: "Invalid activation link"
+  check_activated: "Account not activated.
+    Check your email for the activation link."
   update: "Profile updated"
   logged_in: "Please log in to access this page."
   login_other: "Please log in an other user."
   user_exsit: "This user does not exsit!"
   deleted: "User deleted"
   not_delete: "User cann't delete"
+  check: "Please check your email to activate your account."
   welcome: "Welcome to the Sample App!"
   invalid: "Invalid email/password combination"
   base_title: "Ruby on Rails Tutorial Sample App"
@@ -107,3 +112,12 @@ en:
       signup_content: "If you don't have account ?"
       signup : "Sign up now !"
       remember_me: "Remember me on this computer"
+  user_mailer:
+    account_activation:
+      title: "Sample App"
+      hi: "Hi,"
+      content: "Welcome to the Sample App!
+        Click on the link below to activate your account:"
+      activate: "Activate"
+      welcome: "Welcome to the Sample App!
+        Click on the link below to activate your account: "
