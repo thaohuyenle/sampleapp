@@ -20,6 +20,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  less: "should be less than 5MB"
+  micro_deleted: "Micropost deleted"
+  micro_created: "Micropost created!"
   pass_reset: "Password has been reset."
   cant_empty: "can't be empty"
   pass_expired: "Password reset has expired."
@@ -47,6 +50,8 @@ en:
       sample application"
       ror_tut: "Ruby on Rails Tutorial"
       signup : "Sign up now !"
+      micropost_feed: "Micropost Feed"
+      logo: "Rails logo"
     help:
       title: "Help"
       help: "Help"
@@ -85,6 +90,8 @@ en:
     user:
       delete: "delete"
       sure: "You sure?"
+    show:
+      microposts: "Microposts"
   layouts:
     application:
       ruby_title: "Ruby on Rails Tutorial Sample App"
@@ -109,7 +116,14 @@ en:
   shared:
     error:
       form: "The form contains"
-      error: "errors"
+      error: "error"
+    user_info:
+      view: "view my profile"
+      micropost: "micropost"
+    micropost:
+      compose: "Compose new micropost..."
+      post: "Post"
+      alert: "Maximum file size is 5MB. Please choose a smaller file."
   sessions:
     new:
       title: "Log in"
@@ -143,3 +157,9 @@ en:
       title: "Reset password"
       reset: "Reset password"
       update: "Update password"
+  microposts:
+    microposts:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      you_sure: "You sure?"
