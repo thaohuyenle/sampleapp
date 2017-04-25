@@ -20,6 +20,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  pass_reset: "Password has been reset."
+  cant_empty: "can't be empty"
+  pass_expired: "Password reset has expired."
+  email_not_found: "Email address not found"
+  email_pass: "Email sent with password reset instructions"
   acc_activated: "Account activated!"
   invalid_activation: "Invalid activation link"
   check_activated: "Account not activated.
@@ -112,6 +117,7 @@ en:
       signup_content: "If you don't have account ?"
       signup : "Sign up now !"
       remember_me: "Remember me on this computer"
+      forgot_pass: "forgot password"
   user_mailer:
     account_activation:
       title: "Sample App"
@@ -121,3 +127,19 @@ en:
       activate: "Activate"
       welcome: "Welcome to the Sample App!
         Click on the link below to activate your account: "
+    password_reset:
+      title: "Password reset"
+      to_reset: "To reset your password click the link below:"
+      reset_pass: "Reset password"
+      content: "This link will expire in two hours.
+        If you did not request your password to be reset,
+        please ignore this email and your password will stay as it is."
+  password:
+    new:
+      title: "Forgot password"
+      forgot: "Forgot password"
+      submit: "Submit"
+    edit:
+      title: "Reset password"
+      reset: "Reset password"
+      update: "Update password"
