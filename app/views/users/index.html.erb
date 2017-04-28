@@ -2,8 +2,6 @@
 <h1><%= t "users.index.all_users" %></h1>
 <%= will_paginate %>
 <ul class="users">
-  <% @users.each do |user| %>
-    <%= render @users %>
-  <% end %>
+  <%= render @users %>
 </ul>
 <%= will_paginate %>

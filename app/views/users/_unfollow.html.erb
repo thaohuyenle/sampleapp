@@ -1,0 +1,5 @@
+<%= form_for :relationships,
+  url: user_relationship_path(@user, @relationship),
+  html: {method: :delete}, remote: true do |f| %>
+  <%= f.submit t("users.unfollow.unfollow"), class: "btn" %>
+<% end %>

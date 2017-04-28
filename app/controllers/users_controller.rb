@@ -10,6 +10,7 @@ class UsersController < ApplicationController
 
   def show
     @microposts = @user.microposts.order_by_created.paginate page: params[:page]
+    relationship @user
   end
 
   def new
@@ -50,6 +51,14 @@ class UsersController < ApplicationController
   end
 
   private
+  def relationship user
+    @relationship = if current_user.following? user
+      current_user.active_relationships.find_by followed_id: @user.id
+    else
+      current_user.active_relationships.build
+    end
+  end
+
   def find_user
     @user = User.find_by id: params[:id]
     unless @user
