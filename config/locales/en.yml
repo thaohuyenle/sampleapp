@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  user_not_found: "User not found"
   less: "should be less than 5MB"
   micro_deleted: "Micropost deleted"
   micro_created: "Micropost created!"
@@ -92,6 +93,13 @@ en:
       sure: "You sure?"
     show:
       microposts: "Microposts"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view: "view my profile"
+      microposts: "Microposts:"
   layouts:
     application:
       ruby_title: "Ruby on Rails Tutorial Sample App"
@@ -124,6 +132,9 @@ en:
       compose: "Compose new micropost..."
       post: "Post"
       alert: "Maximum file size is 5MB. Please choose a smaller file."
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       title: "Log in"
